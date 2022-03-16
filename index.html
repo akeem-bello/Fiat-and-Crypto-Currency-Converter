@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CURRENCY CONVERTER</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <style>
+       
+    </style>
+
+    <body>
+    <div class="container mt-5">
+            <h1>Fiat & Crypto Currency Converter</h1>
+        <div id="div0">
+            <div class="row" id="div1">
+                <div class="col-6">
+                    <input id="inp1" oninput="convert()">
+                </div>
+
+                <div class="col-6">
+                    <select id="unitSelector1" onchange="convert()">
+                        <option value="Nigerian Naira">Nigerian Naira</option>
+                        <option value="United States Dollar">United States Dollar</option>
+                        <option value="Pound Sterling">Pound Sterling</option>
+                        <option value="Euro">Euro</option>
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="USDT">Thether (USDT)</option>
+                        <option value="BNB">BNB </option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" id="div1">
+                <div class="col-6">
+                    <input id="inp2" oninput="convert()">
+                </div>
+
+                <div class="col-6">
+                    <select id="unitSelector2" onchange="convert()">
+                        <option value="Nigerian Naira">Nigerian Naira</option>
+                        <option value="United States Dollar">United States Dollar</option>
+                        <option value="Pound Sterling">Pound Sterling</option>
+                        <option value="Euro">Euro</option>
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="USDT">Thether (USDT)</option>
+                        <option value="BNB">BNB </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <p id="p2"><strong>© 2022. Developed by AkeemBello</strong></p>
+    </div>
+
+    <script src="index.js"></script>
+    </body>
+</html>
